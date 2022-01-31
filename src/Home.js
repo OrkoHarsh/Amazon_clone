@@ -1,7 +1,8 @@
+// import { Link } from "@material-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 import"./Home.css";
 import Product from "./Product";
-
 
 function Home(){
     return(
@@ -15,17 +16,23 @@ function Home(){
 
 
                 <div className="home_row">
+                <Link to="KitchenEssentials" className="product_link"> 
                     <Product
                     title="Starting ₹29 | Kitchen essentials"
+                    
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/kitchen/JanART22/GW/PC/186x116_1._SY116_CB647230943_.jpg"
                     image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/kitchen/JanART22/GW/PC/186x116_4._SY116_CB647230943_.jpg"
                     image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/kitchen/JanART22/GW/PC/186x116_3._SY116_CB647230943_.jpg"
                     image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/kitchen/JanART22/GW/PC/186x116_2._SY116_CB647230943_.jpg"
-                    category1="Chopper & more tools"
-                    category2="Cookware"
-                    category3="Gas stoves"
-                    category4="Storage jars & containers"                    
-                    />    
+                    category1="Cookware"
+                    category2="Storage jars & containers"
+                    category3="Chopper & more tools"
+                    category4="Gas Stoves"               
+                    />
+                    
+                </Link> 
+
+                <Link to ="DailyEssentials" className="product_link">
                     <Product
                     title="Up to 50% off | Daily Essentials"
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Baby/FJanuary/JanArt/CONSNEWQC/DesktopATF/Desktop-Gateway_QuadCard_5_1x._SY116_CB647172863_.jpg"
@@ -37,7 +44,9 @@ function Home(){
                     category3="Baby products"
                     category4="Pet supplies"
                     />
-                    
+                </Link>
+
+                <Link to="Fashion"   className="product_link" >
                     <Product
                     title="Up to 70% off | Fashion"
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/Jupiter21/Jan22newGW/PC-QuadCard-1x-Fashion-sarees._SY116_CB647188466_.jpg"
@@ -49,9 +58,11 @@ function Home(){
                     category3=" Men's kurtas"
                     category4="Kids'wear"
                     />
-                    
+                </Link>    
                 </div>
                 <div className="home_row">
+
+                <Link to="Gamming" className="product_link" >  
                     <Product
                     title="Up to 55% off | Gaming"
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/VG-2019Dec/Media-Vgsw/Consoles_1x._SY116_CB647104621_.jpg"
@@ -63,6 +74,9 @@ function Home(){
                     category3=" Accessories"
                     category4=" Subscriptions & currency"
                     />
+                </Link>  
+
+                <Link to="Appliances" className="product_link">  
                     <Product
                     title="Top deals on appliances"
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/major_appliances/nirshai/janart22_mso/xcm_banners_uhipc-1-byroq_186x116_in-hi._SY116_CB647193081_.jpg"
@@ -74,7 +88,9 @@ function Home(){
                     category3="Kitchen appliances "
                     category4="Air Conditioner"
                     />
-
+                </Link>     
+                
+                <Link to="HouseProduct" className="product_link">
                     <Product
                     title="Up to 60% off | House Products"
                     image1="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonSmallBusinessDay/Jupiter21/Jan22newGW/Desktop-Gateway_QuadCard-1x-copy._SY116_CB647184571_.jpg"
@@ -87,6 +103,7 @@ function Home(){
                     category4=" Dinnerware"
                     
                     />
+                </Link>
                     
                 </div>
                 <div className="home_row">

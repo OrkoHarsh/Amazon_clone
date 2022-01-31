@@ -1,0 +1,140 @@
+.ad{
+    width: 100%;
+    /* border: 1px solid lightgray; */
+    
+    
+
+}
+
+.dailly_ad{
+    background-color: white;
+    /* padding-right: 30px; */
+    /* padding: 20px; */
+    margin-bottom: 10px;  
+    border-bottom: 1px solid black;
+
+}
+
+
+.gridcontainer{
+  
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.roww1{
+    display: flex;
+    /* flex-direction: row; */
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.imgg1{
+    padding-right: 200px;
+    height: 190px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    
+}
+
+
+.imgg3{
+    padding-right: 200px;
+    height: 200px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    margin-left: 60px;
+    
+}
+.imgg4{
+    padding-right: 200px;
+    height: 200px;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    margin-left: 60px;
+}
+
+
+ 
+.detailss{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: center;
+    margin-top: 0px;
+    
+
+}
+
+.roww2{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+}
+.imgg2{
+    padding-right: 200px;
+    height: 260px;
+    margin-top: 40px;
+}
+
+.roww3{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.roww4{
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+
+
+.kll{
+    margin-top: 15px;
+    color: gray;
+    text-decoration: line-through;
+    margin-left: 100px;
+}
+.kl{
+    color: black;
+    font-size: medium;
+    margin-left: 100px;
+
+}
+.kdisc{
+    color: red;
+    margin-left: 100px;
+
+}
+.klll{
+    color: black;
+
+    margin-left:   100px;
+    /* margin-bottom: 10px; */
+    padding-bottom: 10px;
+}
+ul{
+    color: black;
+}
+
+.btnn {
+    background-color: orange;
+    border-radius: 22px;
+    margin-left: 150px;
+    margin-bottom:20px;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-color: orange;
+    color: black;
+}
+
+.pricee{
+    align-content: center;
+}
